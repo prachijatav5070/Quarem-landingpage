@@ -30,7 +30,7 @@
   color: rgb(53, 147, 248) !important;
   font-size: 25px !important;
 }
-.cardTxt{
+.cardTxt , .right{
   color: gray;
 }
 .cardBody{

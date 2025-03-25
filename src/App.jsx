@@ -3,6 +3,7 @@ import NavbarPage from "./Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FirstPage from "./FirstPage";
 import SavenPage from "./SavenPage";
+import EightPage from "./EightPage";
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
                 <NavbarPage />
                 <FirstPage />
                 <SavenPage />
+                <EightPage/>
               </>
             }
           ></Route>
