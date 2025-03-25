@@ -2,7 +2,7 @@ import React from 'react'
 import listimg from './images/list.png'
 const SavenPage = () => {
   return (
-    <div style={{display:'grid', gridTemplateColumns:'auto auto'}}>
+    <div className='sevenpage' style={{ display: 'flex', alignItems: 'center', height:"100vh" ,justifyContent:'center', gap:'30px',margin:'20px'}}>
         <div className="left">
         <img src={listimg} width={950} />
 

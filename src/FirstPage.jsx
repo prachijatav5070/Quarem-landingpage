@@ -9,7 +9,7 @@ function FirstPage() {
 
     <div className='frontPage'>
         <div className='left'>
-      <img src={image1} alt="" width={700} height={860}/>
+      <img src={image1} className='frontpageimg' />
         </div>
         <div className='rightt'>
            <h5 style={{color:"rgb(53, 147, 248)",fontSize:20,fontWeight:350 }} >COMMERCIAL LEASE MANAGEMENT SOFTWARE</h5>

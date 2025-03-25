@@ -8,7 +8,7 @@ function FirstDiv() {
   return (
     <div className="FDiv">
       <div className="firstDIv">
-        <Card style={{ width: "18rem" }} className="cardBody">
+        <Card  className="cardBody">
           <Card.Body>
             <Card.Title><FiMenu color="rgb(53, 147, 248)" size={43} /> </Card.Title>
             <Card.Subtitle className="mb-2  CardSubTxt">
@@ -23,7 +23,7 @@ Can’t easily produce an accurate master lease list?
         </Card>
       </div>
       <div className="firstDIv">
-        <Card style={{ width: "18rem" }} className="cardBody">
+        <Card  className="cardBody">
           <Card.Body>
             <Card.Title><TbFileSpreadsheet color="rgb(53, 147, 248)" size={43}  /></Card.Title>
             <Card.Subtitle className="mb-2 CardSubTxt">        
@@ -37,7 +37,7 @@ Spreadsheets becoming a hassle to maintain?
         </Card>
       </div>
       <div className="firstDIv">
-        <Card style={{ width: "18rem" }} className="cardBody">
+        <Card className="cardBody">
           <Card.Body>
             <Card.Title><HiOutlineClipboardDocumentList color="rgb(53, 147, 248)" size={43}  />
             </Card.Title>
