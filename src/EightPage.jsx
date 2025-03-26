@@ -2,7 +2,7 @@ import React from 'react';
 
 const EightPage = () => {
   return (
-    <div style={{ display: 'flex', alignItems: 'center' ,justifyContent:'center', gap:'30px'}}>
+    <div className='Eightpage'>
       <h1 style={{color:'blue', textAlign:'center', fontSize:60}}>Are You Prepared?</h1>
       <iframe
         width="800"
