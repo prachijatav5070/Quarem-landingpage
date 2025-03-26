@@ -1,6 +1,6 @@
 import React from 'react'
 import listimg from './images/list.png'
-const SavenPage = () => {
+const SavenSection = () => {
   return (
     <>
    
@@ -16,4 +16,4 @@ const SavenPage = () => {
   )
 }
 
-export default SavenPage
+export default SavenSection 

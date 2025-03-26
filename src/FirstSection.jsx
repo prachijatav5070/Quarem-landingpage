@@ -3,7 +3,7 @@ import image1 from './images/image1.png'
 import FirstDiv from './FirstDiv'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
-function FirstPage() {
+function FirstSection() {
   return (
     <div className='parent'>
 
@@ -29,4 +29,4 @@ function FirstPage() {
   )
 }
 
-export default FirstPage
+export default  FirstSection

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const EightPage = () => {
+const EightSection = () => {
   return (
     <div className='Eightpage'>
       <h1 style={{color:'blue', textAlign:'center', fontSize:60}}>Are You Prepared?</h1>
@@ -10,9 +10,10 @@ const EightPage = () => {
         src="https://www.youtube.com/embed/DASf5d427ck"
         title="YouTube Video"
         allowFullScreen
-      ></iframe>
+      >
+      </iframe>
     </div>
   );
 }
 
-export default EightPage;
+export default EightSection;

@@ -1,3 +1,7 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .NavClass{
   position: fixed !important;
   z-index: 2;
@@ -109,49 +113,6 @@
   justify-content: center;
   align-items: center;
 }
-/* media query */
-
-/* @media (max-width:768px){
-  .frontPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .rightt {
-    margin-top: 10%;
-  }
-
-  .FDiv {
-    justify-content: center; 
-  }
-
-  .firstDIv {
-    flex: 1 1 100%; 
-    max-width: 100%;
-
-  }
-  .div {
-    top: 75vh;
-    left: 10%;
-    width: 80%;
-    text-align: center;
-  }
- 
-  .navlinks {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .sevenpage{
-    display: flex;
-    flex-direction: column;
-  }
-  .sevenpage .left img{
-    width: 100%;
-  }
-}*/
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .frontPage {
     display: flex;

@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "./images/logo.png";
 
-const NavbarPage = () => {
+const NavbarSection = () => {
   return (
     <Container fluid>
       <Navbar expand="lg" className="NavClass">
@@ -53,4 +53,4 @@ const NavbarPage = () => {
   );
 };
 
-export default NavbarPage;
+export default NavbarSection;

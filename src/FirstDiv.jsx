@@ -18,7 +18,7 @@ function FirstDiv() {
               As your portfolio begins to grow, it can become difficult to maintain an accurate and detailed list of each and every location.
             </Card.Text>
           </Card.Body>
-        </Card>
+        </Card> 
       </div>
       <div className="firstDIv">
         <Card className="cardBody">

@@ -1,9 +1,12 @@
 import React from "react";
-import NavbarPage from "./Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import FirstPage from "./FirstPage";
-import SavenPage from "./SavenPage";
-import EightPage from "./EightPage";
+
+import Footer from "./Footer";
+import LandingPage from "./LandingPage";
+import NavbarSection from "./Navbar";
+import FirstSection from "./FirstSection";
+import SavenSection from "./SavenSection";
+import EightSection from "./EightSection";
 const App = () => {
   return (
     <>
@@ -13,10 +16,12 @@ const App = () => {
             path="/"
             element={
               <>
-                <NavbarPage />
-                <FirstPage />
-                <SavenPage />
-                <EightPage/>
+                <NavbarSection />
+                <FirstSection />
+                <LandingPage />
+                <SavenSection />
+                <EightSection />
+                <Footer />
               </>
             }
           ></Route>
